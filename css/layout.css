@@ -1,0 +1,60 @@
+/*universal CSS*/
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.header {
+    background-color: #8aa39b;
+    padding: 20px;
+    text-align: center;
+}
+
+.topnav {
+    background-color: #5c6f68;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    display: block;
+    color: aliceblue;
+    padding: 15px 30px;
+    text-decoration: none;
+}
+
+.topnav a:hover {
+    background-color: #95d9c3;
+    color: #000000;
+}
+
+.kolom1 {
+    float: left;
+    padding: 20px;
+}
+
+.kolom1.side {
+    width: 25%;
+    text-align: center;
+}
+
+.kolom1.middle {
+    width: 50%;
+    text-align: center;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+    /*membersihkan float left sebelumnya*/
+}
+
+.footer {
+    background-color: #8aa39b;
+    padding: 20px;
+    text-align: center;
+}

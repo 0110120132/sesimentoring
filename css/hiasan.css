@@ -1,0 +1,60 @@
+p {
+    color: brown;
+    text-align: center;
+    text-size-adjust: 20px;
+}
+
+body {
+    background-color: rgb(140, 204, 230);
+    background-repeat: no-repeat;
+}
+
+/* grouping css*/
+fieldset,
+legend {
+    border: rgb(65, 164, 25) 9px solid;
+    border-radius: 30px;
+}
+
+legend {
+    padding: 10px;
+}
+
+table {
+    border: 10px;
+    color: rgb(83, 6, 90);
+}
+
+div#menu {
+    text-align: center;
+    border: 20px coral;
+    padding: 10px;
+}
+
+a.item:link,
+a.item:visited,
+a.item:active {
+    text-decoration: none;
+    font-size: 20px;
+    color: darkgreen;
+    text-align: center;
+    border: 2px solid rgb(121, 58, 58);
+    padding: 10px;
+    background-color: antiquewhite;
+    /*display: block;
+    width: ;
+*/
+}
+
+a.item:hover {
+    text-decoration: none;
+    font-size: 15px;
+    color: #393053;
+    border: 2px solid;
+    padding: 28px;
+    background-color: #635985;
+}
+
+li.menu {
+    color: aliceblue;
+}
