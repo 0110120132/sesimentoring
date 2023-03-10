@@ -1,0 +1,32 @@
+<script>
+    //ada pelanggan membeli barang elektronik seperti
+    //tv = 3jt, motor 13jt, kulkas 4jt
+    //tentukan pembelian barangnya dan berapa yang dibeli
+
+    // iF multi kondisi dan proses
+    let pelanggan = "Daniel";
+    let produk = "TV";
+
+    //struktur kendali
+    if (produk == 'TV') {
+        hargasatuan = 3000000;
+    }
+    else if (produk == 'Motor') {
+        hargasatuan = 13000000;
+    }
+    else if (produk == 'Kulkas') {
+        hargasatuan = 4000000;
+    }
+    else {
+        hargasatuan = 0;
+    }
+    let jumlahbeli = 9;
+    let bruto = hargasatuan * jumlahbeli;
+
+    document.write("Data Pembelian" + "<br/>-----------------"
+        + "<br/> Nama Pelanggan = " + pelanggan
+        + "<br/> Produk Yang dibeli = " + produk
+        + "<br/> Harga Satuan = " + hargasatuan
+        + "<br/> Jumlah barang yang dibeli = " + jumlahbeli
+        + "<br/> Total yang harus dibayarkan = " + bruto)
+</script>
